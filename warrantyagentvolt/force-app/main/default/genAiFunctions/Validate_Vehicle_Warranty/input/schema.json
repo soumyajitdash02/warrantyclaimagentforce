@@ -1,0 +1,14 @@
+{
+  "required" : [ "Vehicle" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Vehicle" : {
+      "title" : "Vehicle",
+      "description" : "Vehicle Identification Number",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

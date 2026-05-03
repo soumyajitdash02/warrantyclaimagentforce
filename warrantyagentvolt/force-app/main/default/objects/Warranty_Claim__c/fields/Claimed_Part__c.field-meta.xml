@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Claimed_Part__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Links the warranty claim to the product/part that is being claimed under warranty</description>
+    <inlineHelpText>Select the product or part that has failed and is covered under warranty</inlineHelpText>
+    <label>Claimed Part</label>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Warranty Claims</relationshipLabel>
+    <relationshipName>Warranty_Claims</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

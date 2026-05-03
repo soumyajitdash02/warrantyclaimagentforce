@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Failure_Description__c</fullName>
+    <description>Detailed description of the failure or issue covered by the warranty claim</description>
+    <inlineHelpText>Provide a detailed description of the part failure, symptoms, and any relevant diagnostic information</inlineHelpText>
+    <label>Failure Description</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

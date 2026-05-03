@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dealer_Attachments__c</fullName>
+    <description>Rich text field for dealer to provide additional documentation and attachments information</description>
+    <inlineHelpText>Provide information about supporting documentation, photos, or other attachments related to this warranty claim</inlineHelpText>
+    <label>Dealer Attachments</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

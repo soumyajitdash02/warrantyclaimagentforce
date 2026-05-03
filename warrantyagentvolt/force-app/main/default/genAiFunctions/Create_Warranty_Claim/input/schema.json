@@ -1,0 +1,42 @@
+{
+  "required" : [ "DealerID", "Mileage", "Product" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "DealerID" : {
+      "title" : "DealerID",
+      "description" : "Dealer ID of Account",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "FailureDesc" : {
+      "title" : "FailureDesc",
+      "description" : "Failure Description",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "Mileage" : {
+      "title" : "Mileage",
+      "description" : "Mileage of vehicle",
+      "lightning:type" : "lightning__numberType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "Product" : {
+      "title" : "Product",
+      "description" : "Claimed Part",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "Vehicle" : {
+      "title" : "Vehicle",
+      "description" : "Vehicle Identification Number",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
